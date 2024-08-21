@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Câu 6</title>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+        body {
+            margin: 0;
+        }
+        
+        * {
+            box-sizing: border-box;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .header {
+            font-family: "Be Vietnam Pro", sans-serif;
+            background-color: #0A043A;
+            padding: 10px 0;
+
+        }
+
+        .container {
+            width: 1180px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .wrap {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .wrap .logo img {
+            height:56px;
+            width: auto;
+        }
+
+        .wrap .menu ul {
+            margin: 0;
+            list-style-type: none;
+            display: flex;
+            align-items: center;
+            padding: 0;
+        }
+
+        .wrap .menu ul li {
+            margin: 0 15px;
+        }
+
+        .wrap .menu ul li a{
+            font-size: 16px;
+            color: #FFF;
+            font-weight: 600;
+        }
+
+        .wrap .menu ul li a:hover {
+            color:#00ADEF;
+        }
+
+        .wrap .menu ul li:first-child a {
+            color: #00ADEF;
+        }
+
+        .wrap .button {
+            padding: 15px 30px;
+            background-color: #FFF;
+            border-radius: 6px;
+            color: #0A033C;
+            font-size: 16px;
+            font-weight: 600;
+        }
+
+        .wrap .button:hover {
+            background-color: #00ADEF;
+            color: #fff;
+
+
+        }
+
+
+    </style>
+</head>
+<body>
+    <h2>Câu 6: header</h2>
+    <p><b>Yêu cầu:</b> Sử dụng HTML và CSS để dựng khối bên dưới.</p>
+    <header class="header">
+        <div class="container">
+            <div class="wrap">
+                <div class="logo">
+                    <a href=""><img src="https://frontend.daca.vn/lessons/lesson-6/images/logo-28tech.svg" alt=""></a>
+                </div>
+
+                <nav class="menu">
+                    <ul>
+                        <li><a href="#">Trang Chủ</a></li>
+                        <li><a href="#">Giới Thiệu</a></li>
+                        <li><a href="#">Khóa Học Zoom</a></li>
+                        <li><a href="#">Khóa Học Video</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Feedback</a></li>
+                    </ul>
+                </nav>
+                <a href="" class="button">Liên hệ</a>
+            </div>
+        </div>
+    </header>
+</body>
+</html>
